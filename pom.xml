@@ -7,8 +7,17 @@
   <groupId>clinic.programming</groupId>
   <artifactId>sample</artifactId>
   <version>1.0</version>
-   <build>
-
+  
+  <dependencies>
+	<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-lang3</artifactId>
+    <version>3.7</version>
+	</dependency>
+  
+  </dependencies>
+  
+  <build>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -20,7 +29,6 @@
         </configuration>
       </plugin>
     </plugins>
-
   </build>
 
   
